@@ -1,0 +1,6 @@
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+uproot>=5.0
+awkward>=2.4
+pytest>=7.0

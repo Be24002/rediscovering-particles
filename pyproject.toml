@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dimuon"
+version = "0.1.0"
+description = "Rediscover the J/psi, Upsilon and Z boson peaks in real CMS Open Data dimuon events, with fits validated against PDG values"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "Be24002" }]
+keywords = ["physics", "cern", "cms-open-data", "particle-physics", "z-boson", "dimuon"]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+nanoaod = ["uproot>=5.0", "awkward>=2.4"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

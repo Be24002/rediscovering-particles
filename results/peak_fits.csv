@@ -1,0 +1,4 @@
+model,mass_gev,mass_err_gev,width_gev,width_err_gev,chi2_ndf,n_events_window,n_signal,pdg_mass_gev,diff_gev
+J/psi (Gaussian),3.0929,0.0002,0.0314,0.0002,7.89,39940,30979,3.0969,-0.0040
+Z (Gaussian),90.7540,0.0163,2.3516,0.0145,17.26,33177,24954,91.1876,-0.4336
+Z (CrystalBall),90.8916,0.0211,2.1723,0.0198,8.99,33177,13835,91.1876,-0.2960
